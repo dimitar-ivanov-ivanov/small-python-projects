@@ -25,6 +25,6 @@ def message():
 
     popup.mainloop()
 
-# Delay the notification by 2 seconds
+# Delay the notification by 25 minutes
 t = Timer(25*60, message)
 t.start()
